@@ -1,0 +1,45 @@
+1er paso: instalar git a partir de git-scm
+
+Luego, abrir Git Bash
+
+Tener en cuenta el hecho de tener repositorio local y en algun momento
+optar por subir nuestro codigo a github.com
+
+Crear cuenta en github
+
+Luego creo un nuevo repositorio: NO marcar la opcion del readme y dejar el repositorio
+en publico
+
+abiert GitBAsch, navegamos hasta nuestro directorio de trabajo
+ejecuto pwd: consulto cual es el directorio actual
+
+cd D:/Clase1_R4DS
+
+ver listado de archivos: ls
+
+Limpiar ventana: CTRL+L
+
+Inicializamos nuestro repositorio local:
+git init
+
+Agrego los archivos del directorio de trabajo:
+git add .
+
+almacenamos el contenido de la carpeta o directorio de trabajo en el repositorio local:
+git commit -a
+
+esto nos pide informacion de corre y usuario:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git status *** para ver cambios
+git log
+git remote add origin https://github.com/lcastillonavarro/Clase1R4DS.git
+*origin: nombre de mi repositorio remoto
+* URL web de mi respositorio
+
+para subir los datos en el archivos de mi ultimo commit local: git push -u origin master
+
+
+
+
